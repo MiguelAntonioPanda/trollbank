@@ -250,6 +250,7 @@ footer.rodape{
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.384);
 }
 article.rodape1{
     display: flex;
@@ -331,6 +332,19 @@ article.media h3{
     justify-content: space-between;
     gap: 15px;
     padding: 10px;
+}
+.header2{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 300;
+    height: 60px;
+}
+.header2 a{
+    color: #F29325;
+}
+.header2:hover a{
+    text-decoration: underline;
 }
 
 
