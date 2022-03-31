@@ -26,7 +26,8 @@ header{
     justify-content: space-around;
     height: 80px;
     background-color: #222;
-
+    position: sticky;
+    top: 0;
     font-family: 'Arial';
     font-weight: 500;
     border-bottom: 1px solid black;
@@ -132,8 +133,7 @@ section.section1 h1{
     font-size: 1.2em;
 }
 #img1{
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
 }
 section.section2{
     margin-top: 50px;
@@ -243,5 +243,96 @@ section.section4 h1{
     margin-right: 20px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384);
 }
+footer.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+article.rodape1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+.rodape1:hover{
+    font-size: 1.2em;
+}
+article.rodape1 h3{
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+article.rodape1 p{
+    color: #fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.rodape1 button{
+    padding: 15px;
+    background-color: #F29325;
+    border-radius: 8px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.384);
+    transition-duration: 0.5s;
+
+}
+.rodape1 button a{
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: larger;
+}
+.rodape1 button:hover{
+    font-size: 1.2em;
+}
+article.rodape2{
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.5s;
+}
+.rodape2:hover{
+    font-size: 1.2em;
+}
+article.rodape2 h3{
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+article.rodape2 p{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+}
+article.rodape2 a{
+    color: #fff;  
+}
+article.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+.media:hover{
+    font-size: 1.2em;
+}
+article.media h3{
+    color: #fff;
+    margin-top: -60px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+}
+#imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+}
+
+
 
 
